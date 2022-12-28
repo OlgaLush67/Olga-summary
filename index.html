@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это сайт - резюме Ольги">
+    <meta name="keywords" content="resume, it">
+    <title>Ольга - резюме</title>
+    <link rel='stylesheet' href='selectors.css'>  
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="Olga.jpg" alt="Olga" class="avatar" >
+            
+            
+            <div class="info-text">
+                <h1>Ольга - резюме</h1>
+                <p><em>Всем, кто это читает, добрый день!</em> Меня зовут Ольга. Я счастливая жена, мать и бабушка. <strong>Моя семья - моё всё.</strong> Но и про себя я не забываю. Люблю готовить, вязать, вышивать, делать своими руками элементарную мебель. 
+                <p>Вообще у меня пожизни скромный дивиз: <strong><em>"Хочешь, но не можешь? Значит плохо старалась. Пробуй еще раз!"</em></strong></p>
+            </div>
+        </div>
+
+        <div class="card bg-thistle">
+        <h2>Мои социальные сети</h2>
+            <a href="https://ok.ru/" target="_blank">ok</a>
+            <a href="https://www.youtube.com/channel/UCsxDCLel0x9bwrNwkKy6QIw" target="_blank">Youtube</a> 
+        </div>
+
+        <div class="card">
+            <h2>Мои хобби</h2>
+            <OL class="list">
+                <li>Шить костюмы для Беллиданс</li>
+                <li>Вышивать картины</li>
+                <li>Работать с бисером</li>
+                <li>Работать по дереву</li>
+            </OL>  
+        </div>
+
+        <div class="card bg-thistle">
+            <h2>Моя семья</h2>
+            <table> 
+            <thead class="thead">  
+                <tr>
+                    <th>Имя</th>
+                    <th>Возраст</th>
+                    <th>Кем приходится</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Диана</td>
+                    <td>16</td>
+                    <td>Внучка</td>
+                </tr>
+            
+                <tr>
+                    <td>Даниил</td>
+                    <td>3</td>
+                    <td>Внук</td>
+                </tr>
+            
+                <tr>
+                    <td>Леон</td>
+                    <td>3 месяца</td>
+                    <td>Внук</td>
+                </tr>
+            </tbody>
+            </table> 
+        </div>
+                    
+            <Form action="/" class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Ваше email </label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                 </div>
+                <div class="form-group">
+                    <label for="messang" placeholder="Сообщение">Сообщение </label>
+                    <!-- <br> -->
+                    <textarea id="messang" cols="40" role="3" placeholder="Введите сообщение..."></textarea>
+                </div>
+            
+            <input class="btn" type="submit" value="Отправить">
+
+            </Form>
+    </div>
+</body>
+</html>
